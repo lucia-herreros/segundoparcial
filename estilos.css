@@ -1,0 +1,176 @@
+h1 {
+    color: #01447E;
+    text-align: center;
+    padding: 50px;
+    font-weight: 800;
+}
+
+h2 {
+    padding: 20px 10px 10px 10px;
+    color: #E4785F;
+    font-weight: bold;
+}
+
+h3 {
+    padding: 10px;
+    color: #01447E; 
+}
+
+h4 {
+    color: #E4785F; 
+}
+
+h5 {
+    color: #01447E; 
+}
+
+nav {
+    background-color: #01447E;
+}
+
+.navbar-brand {
+    color: #ECBAA8;
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    color: #E4785F;
+}
+
+#activo {
+    color: #E4785F;
+}
+
+.menu {
+    color: #EBE9E1;
+}
+
+.menu:hover {
+    color: #E4785F;
+}
+
+.enlace {
+    text-decoration: none;
+    color: #01447E;
+    font-weight: 500;
+}
+
+.enlace:hover {
+    color: #E4785F;
+}
+
+.btn {
+    background-color: #E4785F;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #ECBAA8;
+    color: #EBE9E1;
+}
+
+.table th {
+    color: #E4785F;
+}
+
+img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+footer {
+    background-color: #01447E;
+    color: #EBE9E1;
+    text-align: center;
+}
+
+/* Estilo error formulario */
+
+.mensaje-error {
+    color: rgb(205, 10, 10);
+    font-size: small;
+}
+
+/* Estilo para modo oscuro */
+.modo-oscuro {
+    background-color: #0b1e3d;
+    color: #EBE9E1;
+}
+
+.modo-oscuro h1 {
+    color: #e66346;
+} 
+
+.modo-oscuro h2,
+.modo-oscuro h3,
+.modo-oscuro h4,
+.modo-oscuro h5 {
+    color: #ECBAA8;
+}
+
+.modo-oscuro nav {
+    background-color: #022c5a;
+}
+
+.modo-oscuro footer {
+    color: #EBE9E1;
+    background-color: #022c5a;
+}
+
+.modo-oscuro .enlace {
+    text-decoration: none;
+    color: #E4785F;
+    font-weight: 500;
+}
+
+.enlace:hover {
+    color: #ECBAA8;
+}
+
+.modo-oscuro li {
+    color: #EBE9E1;
+}
+
+.modo-oscuro .card {
+    background-color: #022c5a;
+    color: #EBE9E1;
+    border-color: #232c3a;
+}
+
+.modo-oscuro table,
+.modo-oscuro table td {
+    background-color: #022c5a;
+    color: #EBE9E1;
+    border-color: #232c3a;
+
+}
+
+.modo-oscuro table th {
+    background-color: #01447E; 
+    color: #E4785F;
+    border-color: #232c3a;
+}
+
+.modo-oscuro .list-group-item {
+  background-color: #01447E; 
+  color: #EBE9E1; 
+  border: 1px solid #232c3a; 
+}
+
+.modo-oscuro input[type="text"],
+.modo-oscuro textarea {
+    background-color: #022c5a;
+    color: #EBE9E1;
+    border: 1px solid #232c3a;
+}
+
+.modo-oscuro input[type="text"]::placeholder,
+.modo-oscuro textarea::placeholder {
+    color: #aaa;
+}
+
